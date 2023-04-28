@@ -74,7 +74,9 @@
     display: none;
 }
 
-
+.container__texto {
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
     .container__titulo {
@@ -89,6 +91,7 @@
         font-size: 30px;
         font-weight: 700;
     }
+    
     
     
     .opçoes {
