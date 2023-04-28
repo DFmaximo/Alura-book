@@ -74,28 +74,23 @@
     display: none;
 }
 
-.container__texto {
-    display: none;
-}
+
 
 @media screen and (min-width: 1024px) {
     .container__titulo {
         font-family: var(--fonte-secundaria);
         font-size: 30px;
         font-weight: 400;
+        display: block;
     }
 
     .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
         font-size: 30px;
         font-weight: 700;
-        display: block;
     }
-
-    .cabecalho__menu-hamburguer{
-        display: none;
-    }
-
+    
+    
     .opçoes {
         display: flex;
     }
@@ -113,7 +108,12 @@
         display: none;
     }
 
-    .opçoes__botao:checked ~ .lista-menu {
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+
+    .opçoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
     }
